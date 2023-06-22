@@ -26,3 +26,30 @@ ALTER ROLE coopeuch WITH SUPERUSER;
 
 ALTER DATABASE coopeuch OWNER TO coopeuch;
 
+
+### Consume
+
+### POST
+http://localhost:8085/v_1/task
+{
+  "description" : "Task 1",
+  "validity" : true
+}
+
+### GET ALL
+http://localhost:8085/v_1/task{1}
+
+### GET BY ID
+http://localhost:8085/v_1/task{1}
+
+### UPDATE
+http://localhost:8085/v_1/task
+{
+  "id": 1,
+  "description" : "Task 1",
+  "validity" : true
+}
+
+### DELETE
+http://localhost:8085/v_1/task{1}
+
