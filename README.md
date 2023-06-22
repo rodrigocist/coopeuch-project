@@ -37,7 +37,7 @@ http://localhost:8085/v_1/task
 }
 
 ### GET ALL
-http://localhost:8085/v_1/task{1}
+http://localhost:8085/v_1/task
 
 ### GET BY ID
 http://localhost:8085/v_1/task{1}
